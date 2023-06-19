@@ -1,0 +1,33 @@
+* {
+  font-family: -apple-system, Monaco, BlinkMacSystemFont, sans-serif;
+}
+
+.ingredients-steps {
+  text-align: justify;
+  font-size: 10px;
+  color: black;
+  background-color: lightblue;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 2px;
+}
+
+img {
+  height: auto;
+  width: 500px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 500px;
+  padding-right: 500px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+  font-size: 12px;
+}
