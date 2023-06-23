@@ -1,3 +1,3 @@
 # Odysseus
 
-Odysseus is my version of the Odin Recipes Project. This repo will generate a beautiful unstylized webpage with a lot of amazing recipes. It also happens to my first webpage, so please do not judge my skills just based off of this webpage. I wil make a significantly better one soon.
+Odysseus is gonna help beginners who have a passion in CS understand everything about it, and share resources that I have tailored based on my experiences.
