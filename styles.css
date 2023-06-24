@@ -15,6 +15,7 @@ h1 {
   background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin: 0;
 }
 
 .superset {
@@ -22,8 +23,9 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 25px;
 }
 
-.intro {
+.text {
   max-width: 1000px;
 }
