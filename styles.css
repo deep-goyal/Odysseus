@@ -1,6 +1,7 @@
 * {
   font-family: "Inter Tight", sans-serif;
   color: white;
+  letter-spacing: 0.66px;
 }
 
 h1,
@@ -11,9 +12,11 @@ h2 {
 
 .supertitle {
   font-size: 150px;
-  background: -webkit-linear-gradient(#eee, #333);
+  background-image: linear-gradient(to right, #ff00cc, #3333ff);
+  background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: transparent;
+  text-decoration: none;
   margin: 0;
 }
 
@@ -28,9 +31,18 @@ h2 {
 .text {
   font-weight: 200;
   max-width: 1000px;
+  line-height: 2;
 }
 
 body {
   background: -webkit-linear-gradient(360deg, #030303 10%, #1f1f1f 360%);
   background: linear-gradient(360deg, #030303 10%, #1f1f1f 360%);
+}
+
+a {
+  background-image: linear-gradient(to right, #ff00cc, #3333ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-decoration: none;
 }
