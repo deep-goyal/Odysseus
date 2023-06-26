@@ -3,24 +3,159 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200;300;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
     <title>Odysseus</title>
   </head>
   <body>
     <div class="superset">
-      <h1>Odysseus</h1>
+      <div>
+        <h1 class="supertitle">Odysseus</h1>
+        <nav>
+          <a href="./foundations.html">Foundations&nearr;</a>
+          <a href="./math.html">Math&nearr;</a>
+          <a href="./webdev.html">Web-Dev&nearr;</a>
+          <a href="./dsa.html">Data-Structures&nearr;</a>
+          <a href="./sqldb.html">Databases&nearr;</a>
+          <a href="./mobdev.html">Mobile-Dev&nearr;</a>
+          <a href="./about.html">About&nearr;</a>
+        </nav>
+      </div>
 
-      <nav>
-        <a href="./foundations.html">Foundations&nearr;</a>
-        <a href="./math.html">Math&nearr;</a>
-        <a href="./webdev.html">Web-Dev&nearr;</a>
-        <a href="./dsa.html">Data-Structures&nearr;</a>
-        <a href="./sqldb.html">Databases&nearr;</a>
-        <a href="./mobdev.html">Mobile-Dev&nearr;</a>
-        <a href="./about.html">About&nearr;</a>
-      </nav>
+      <div class="text">
+        <h1>Foundations</h1>
+        <h2>Let's setup your work environment.</h2>
 
-      <div class="text"></div>
+        <p>
+          Every programmer uses what's called an IDE, short for Integrated
+          Development Environment. Its a fancy notepad so to speak. IDEs give
+          you some of the best tools to write code. Some of them include syntax
+          highlighting, autoformatting, and much more. A few popular IDEs are VS
+          Code, Eclipse, intelliJ, and XCode. Odysseus requires you to use
+          Visual Studio Code.
+          <a href="https://code.visualstudio.com/download">Download VS Code</a>
+          and follow <a href="https://youtu.be/B-s71n0dHUk">this</a> tutorial.
+        </p>
+
+        <p>
+          Special note, I would love to suggest you the Prettier extension for
+          VS Code. Prettier automatically formats your code.
+          <a href="https://youtu.be/8k-b-7rJAeU">Here</a> is how you can set it
+          up in your desktop.
+        </p>
+
+        <h2>Command Line Interface and the Bourne Again SHell (BASH)</h2>
+
+        <p>
+          Now that you have a clean setup, lets also get used to the command
+          line, a tool that you will inevitably use quite often. The Software
+          Carpentry's
+          <a href="https://swcarpentry.github.io/shell-novice/"
+            >Unix Shell Document</a
+          >
+          provides a comprehensive introduction to the language. I would suggest
+          reading the chapters 1-4, until you are familiar with pipers and
+          filters. I would also suggest watching this
+          <a href="https://youtu.be/I4EWvMFj37g">video</a> about BASH once you
+          are familiar with the command line, and how to use the shell in
+          general. One thing to note, BASH and command line are not the same
+          thing. Command line is just a text based interface, and BASH is a
+          shell that provides this interface and many other scripting tools that
+          you can leverage to run your programs effectively.
+        </p>
+
+        <h2>GIT- The Ultimate Save Button</h2>
+
+        <p>
+          You are going to be writing a lot of code soon, but how are you going
+          to manage it? That's where Git and GitHub enter the picture. Go
+          through Odin Project's
+          <a
+            href="https://www.theodinproject.com/lessons/foundations-setting-up-git"
+            >Setting Up Git</a
+          >
+          to set this revolutionary version control system up in your system,
+          and learn the basics from these webpages:
+          <a
+            href="https://www.theodinproject.com/lessons/foundations-introduction-to-git"
+            >Intro to Git</a
+          >
+          <a
+            href="https://www.theodinproject.com/lessons/foundations-git-basics"
+            >Git Basics</a
+          >
+
+          Read
+          <a
+            href="https://www.geeksforgeeks.org/difference-between-git-and-github/"
+            >this article</a
+          >
+          from GeeksforGeeks to understand the difference between Git and
+          GitHub.
+        </p>
+
+        <p>Pheww. That was a lot of effort and good job keeping up!</p>
+
+        <h2>What is programming?</h2>
+
+        <p>
+          Programming is the art of creating instructions, known as code, that
+          computers can understand and execute. It's like speaking a special
+          language to communicate with our electronic friends. We use
+          programming languages like C, Java, or Python to write logical and
+          structured commands that solve problems and perform tasks. Programmers
+          are like puzzle solvers! They break down complex problems into
+          smaller, manageable steps, using their creativity and logical
+          thinking. It's a bit like following a recipe or solving a puzzle, but
+          with a tech twist! After we write our code, it goes through a
+          fascinating transformation. First, it's translated into assembly code,
+          which is a more readable version for computers. Then, it's further
+          translated into machine code—instructions that the computer's hardware
+          can directly understand. Finally, it becomes a binary executable—the
+          ultimate language that our computer loves! Programming is more than
+          just automation and data manipulation; it's a versatile skill that
+          opens up a world of possibilities. With programming, we can automate
+          tasks, manipulate data, build software applications, and much more. It
+          requires practice and attention to detail, allowing us to harness the
+          power of computers to accomplish various goals.
+        </p>
+
+        <p>
+          Here is your first task. You have to learn a general purpose
+          programming language. It could be C, C++, Python, Java or JavaScript.
+          The aim here is to get familiar with the notion of specific
+          instructions and how a computer processes these instructions. My
+          recommendation is
+          <a href="https://cs50.harvard.edu/x/2023/">Harvard's CS50</a> to learn
+          C and Python. You can stop watching their lectures once you are
+          familiar with Python, Odysseus has a better path for web development
+          later down the line.
+        </p>
+
+        <p>
+          The StackOverflow community loves
+          <a href="https://www.amazon.com/dp/0321992784">
+            Bjarne Stroustrup's Programming: Principles and Practice Using C++
+          </a>
+          for beginners looking to learn C++.
+        </p>
+
+        <p>
+          If you are looking to start this path with Java, I would recommend
+          Code With Mosh. Mosh Hamedani demonstrates his passion for java in his
+          <a href="https://youtu.be/eIrMbAQSU34">tutorial</a>
+        </p>
+
+        <p>
+          Now that you have a general-purpose programming language under your
+          belt, its time to dig deeper.
+        </p>
+      </div>
     </div>
   </body>
 </html>
