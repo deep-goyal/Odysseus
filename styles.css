@@ -4,39 +4,28 @@
   letter-spacing: 0.66px;
 }
 
-h1,
-h2 {
-  font-weight: 500;
-  text-align: center;
-}
-
-.supertitle {
-  font-size: 150px;
-  background-image: linear-gradient(to right, #ff00cc, #3333ff);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  text-decoration: none;
-  margin: 0;
-}
-
-.superset {
+body {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   gap: 25px;
-}
-
-.text {
-  font-weight: 200;
-  max-width: 1000px;
-  line-height: 2;
-}
-
-body {
   background: -webkit-linear-gradient(360deg, #030303 10%, #1f1f1f 360%);
   background: linear-gradient(360deg, #030303 10%, #1f1f1f 360%);
+}
+
+.navbar a {
+  padding-left: 5px;
+  padding-right: 5px;
+  align-self: flex-end;
+  font-size: clamp(1rem, 1rem + 2vw, 1.5rem);
+}
+.navbar a:hover {
+  color: white;
+}
+
+.navbar {
+  align-self: flex-end;
 }
 
 a {
@@ -47,7 +36,40 @@ a {
   text-decoration: none;
 }
 
-/*testing*/
+.supertitle {
+  font-size: clamp(2rem, 2rem + 20vw, 30rem);
+  background-image: linear-gradient(to right, #ff00cc, #3333ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-decoration: none;
+  margin: 0;
+}
+
+.subtitles {
+  background-image: linear-gradient(to right, #ff00cc, #3333ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+h1,
+h2 {
+  font-weight: 500;
+  text-align: center;
+}
+
+.content {
+  font-weight: 200;
+  max-width: 1000px;
+  line-height: 2;
+}
+
+.element1 {
+  text-align: left;
+}
 
 .element1::after {
   content: "";
