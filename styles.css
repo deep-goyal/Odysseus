@@ -11,8 +11,9 @@ body {
   justify-content: space-around;
   align-items: center;
   gap: 25px;
-  background: -webkit-linear-gradient(360deg, #030303 10%, #1f1f1f 360%);
-  background: linear-gradient(360deg, #030303 10%, #1f1f1f 360%);
+  /* background: -webkit-linear-gradient(360deg, #030303 10%, #1f1f1f 360%);
+  background: linear-gradient(360deg, #030303 10%, #1f1f1f 360%); */
+  background: radial-gradient(circle at center 70%, #111111 0%, #0c0c0c 100%);
 }
 
 .navbar a {
@@ -22,7 +23,8 @@ body {
   font-size: clamp(1rem, 1vw, 1.5rem);
 }
 .navbar a:hover {
-  color: white;
+  color: greenyellow;
+  transition: 1.1s;
 }
 
 .navbar {
@@ -35,6 +37,11 @@ a {
   -webkit-background-clip: text;
   color: transparent;
   text-decoration: none;
+}
+
+a:hover {
+  color: greenyellow;
+  transition: 1.1s;
 }
 
 .supertitle {
@@ -53,7 +60,7 @@ a {
   -webkit-background-clip: text;
   color: transparent;
   text-decoration: none;
-  font-size: clamp(0.5rem, 8vw, 3rem);
+  font-size: clamp(0.5rem, 4vw +1rem, 3rem);
   line-height: 3rem;
 }
 
@@ -64,7 +71,7 @@ h2 {
 }
 
 .content {
-  font-weight: 330;
+  font-weight: 340;
   max-width: 1000px;
   line-height: 2;
   font-size: clamp(0.3rem, 1rem + 2vw, 1.1rem);
